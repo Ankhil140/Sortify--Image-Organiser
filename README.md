@@ -1,20 +1,32 @@
-# Sortify - Image Organiser
+# 🎨 Sortify - AI-Powered Image Organizer
 
-Sortify is an image organizing tool designed to help users manage and categorize their images efficiently. This project aims to simplify the process of sorting and storing images in designated folders based on customizable criteria.
+Sortify is an intelligent image organization tool that uses artificial intelligence (CLIP model) and machine learning (HDBSCAN clustering) to automatically categorize and organize your images into semantic folders.
 
-## Features
+## ✨ Features
 
-- **Automatic Sorting:** Automatically sort images into folders based on criteria like date, file type, or tags.
-- **Custom Rules:** Create custom rules for sorting based on user-defined parameters.
-- **User-Friendly Interface:** Easy-to-use interface designed for all levels of technical expertise.
-- **Batch Processing:** Sort and manage multiple images at once.
-- **Search Functionality:** Quickly search through your organized images.
-- **Cross-Platform Compatibility:** Works on various operating systems, including Windows, macOS, and Linux.
+- 🤖 AI-Powered Clustering
+- 🏷️ Semantic Labeling
+- ⚡ GPU Acceleration
+- 🌐 Web API
+- 💻 CLI Tool
+- 📂 Smart Organization
+- 🔄 Flexible Actions
+- 🛡️ Error Handling
 
-## Installation
+## 🚀 Quick Start
 
-To install Sortify, follow these steps:
+### Prerequisites
+- Python 3.8+
+- pip
+- 4GB+ RAM
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ankhil140/Sortify--Image-Organiser.git
+### Installation
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run Sortify
+
+## 📖 Usage
+
+### CLI Usage
+```bash
+python pix_sort.py --input ./unsorted_images --output ./sorted_images
